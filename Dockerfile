@@ -4,3 +4,4 @@ COPY ./ /app
 RUN apt-get update -y && apt-get install -y gcc && cd /app && gcc helloworld.c -o helloworld
 
 CMD /app/helloworld
+
